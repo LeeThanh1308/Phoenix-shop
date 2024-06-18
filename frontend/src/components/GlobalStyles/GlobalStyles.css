@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+  word-wrap: break-word;
+  font-family: "Roboto";
+}
+
+#root,
+.App,
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#overflow-hidden {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.warn {
+  font-size: 10px;
+  text-align: start;
+}
+
+.menu {
+  animation: 0.3s showMenu linear;
+}
+
+@keyframes showMenu {
+  from {
+    margin-left: -100px;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.show {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid rgb(255, 55, 95);
+  border-bottom: 10px solid transparent;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.nav-link-mana.active {
+  box-shadow: 0 1px 4px 0 rgba(255, 255, 255, 0.8),
+    0 1px 2px -1px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin: 0 0 0 -12px;
+  cursor: inherit;
+}
+
+.category::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 10%;
+  border-bottom: 8px solid #f8fafc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.category::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 40px;
+  top: -39px;
+}
+
+.info::after,
+.cart::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 12px;
+  border-bottom: 8px solid #f8fafc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.cart::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  right: 0;
+  height: 10px;
+  top: -10px;
+}
+
+.info::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  right: 0;
+  height: 30px;
+  top: -30px;
+}
+
+.cart {
+  width: 500px;
+}
+
+.smaill {
+  font-size: 10px;
+}
+
+.active-link {
+  color: red;
+  background-color: aqua;
+}
+
+.nav-header.active {
+  border-bottom: 3px solid #fff;
+}
+
+.nav-header.active div:hover {
+  background-color: transparent !important;
+  cursor: default;
+}
+
+.logo {
+  filter: drop-shadow(1px 1px 1px #000000) !important;
+}
+
+.ant-modal-footer {
+  color: #000000 !important;
+}
+
+.ant-modal-footer button {
+  color: #000000 !important;
+  border: 1px solid skyblue !important;
+}
+
+.loader-avt {
+  position: relative;
+}
+
+.loader-avt > span {
+  border: 3px solid transparent;
+  border-top-color: white;
+  border-right-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.loader-avt > span:nth-child(1) {
+  width: 3.5em;
+  height: 3.5em;
+  margin-left: -1.75em;
+  margin-top: -1.75em;
+  animation: spin 2s linear infinite;
+}
+
+.loader-avt > span:nth-child(2) {
+  width: 2.1em;
+  height: 2.1em;
+  margin-left: -1.05em;
+  margin-top: -1.05em;
+  animation: spin 1.75s linear reverse infinite;
+}
+
+.loader-avt > span:nth-child(3) {
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: -0.4em;
+  margin-top: -0.4em;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-upload-list-item-name,
+.ant-upload-list-item.ant-upload-list-item-error {
+  border-color: #ccc !important;
+  color: black !important;
+}
+
+.showheader {
+  animation: showheader 0.3s ease;
+}
+
+@keyframes showheader {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slider-aspect {
+  padding-top: 56.25%;
+}
+
+.button.ant-btn.css-dev-only-do-not-override-amq5gd.ant-btn-primary.ant-btn-sm {
+  border-color: skyblue;
+  color: skyblue;
+}
