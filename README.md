@@ -36,5 +36,5 @@
         - Quản trị slider (Thêm, sửa , xóa)
         - Quản trị danh mục (Thêm, sửa , xóa)
         - Quản trị chuỗi cửa hàng (Đang phát triển)
-        - Quản lý cửa hàng (Thêm, sửa, xóa)
-        - Quản lý nhân viên (Thêm , sửa , xóa)
+            - Quản lý cửa hàng (Thêm, sửa, xóa)
+            - Quản lý nhân viên (Thêm , sửa , xóa)
