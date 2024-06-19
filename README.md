@@ -38,3 +38,8 @@
         - Quản trị chuỗi cửa hàng (Đang phát triển)
             - Quản lý cửa hàng (Thêm, sửa, xóa)
             - Quản lý nhân viên (Thêm , sửa , xóa)
+
+## Tài khoản admin:
+
+    - Email: le1308308@gmail.com
+    - Pass: 000000
