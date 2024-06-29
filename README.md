@@ -1,10 +1,13 @@
-# Trong quá trình học tập em có làm 1 dự án về bán hàng tạp hóa a/c có thể truy cập qua link sau [Phoenix Shop](https://www.phoenix.id.vn/)
+# Mô tả dự án - Demo:[Phoenix Shop](https://www.phoenix.id.vn/)
 
 ## Công nghệ sử dụng
 
 **Frontend:** ReactJS, TailwindCSS, Ant Design ...
 
 **Backend:** NestJS
+
+## Entity Relationship Diagram
+![Annotation 2024-06-29 232632](https://github.com/LeeThanh1308/Phoenix-shop/assets/114464615/33f13b8e-6dd3-46c0-abcb-ab811b6fe358)
 
 ## Các chức năng:
 
